@@ -55,13 +55,11 @@ I care about the parts that don't make the demo: idempotency, retries, schema de
 </tr>
 </table>
 
-### Signals
+### LeetCode
 
-| 564 | 50 | 28 | 596 |
-|:--:|:--:|:--:|:--:|
-| LeetCode problems | hard problems | public repos | contributions / yr |
-
-<sub>LeetCode as of Oct 2026 · GitHub contributions over the last 12 months.</sub>
+<div align="center">
+  <img src="https://leetcard.jacoblin.cool/PravinMandal?theme=radical&font=Nunito&ext=heatmap" alt="Pravin's LeetCode stats and submission heatmap" width="500">
+</div>
 
 ### Now
 

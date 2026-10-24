@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="760" viewBox="0 0 1240 760" fill="none">
+  <defs>
+    <clipPath id="frameClip"><rect x="20" y="20" width="1200" height="720" rx="18"/></clipPath>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" stroke="#1A212B" stroke-width="1"/>
+    </pattern>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+  <rect width="1240" height="760" fill="#0B0E13"/>
+  <rect x="20" y="20" width="1200" height="720" rx="18" fill="#12171F"/>
+  <g clip-path="url(#frameClip)">
+    <rect x="20" y="20" width="1200" height="44" fill="#161C25"/>
+    <circle cx="46" cy="42" r="6" fill="#FF5F57"/>
+    <circle cx="68" cy="42" r="6" fill="#FEBC2E"/>
+    <circle cx="90" cy="42" r="6" fill="#28C840"/>
+    <rect x="385" y="30" width="430" height="24" rx="12" fill="#0D1117"/>
+    <circle cx="401" cy="42" r="3" fill="#57AB5A"/>
+    <text x="414" y="47" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="13" fill="#8B949E">github.com/PravinMandal/VectorForge</text>
+    <rect x="20" y="64" width="1200" height="676" fill="#0B0E13"/>
+    <rect x="20" y="64" width="1200" height="676" fill="url(#grid)" opacity="0.55"/>
+    <circle cx="1040" cy="160" r="150" fill="#B7F171" opacity="0.035" filter="url(#soft)"/>
+    <text x="48" y="138" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="38" font-weight="700" fill="#E6EDF3" letter-spacing="-1">VectorForge</text>
+  </g>
+  <rect x="20" y="20" width="1200" height="720" rx="18" stroke="#2C3542"/>
+
+  <text x="48" y="176" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="18" font-weight="400" fill="#B7F171" text-anchor="start" letter-spacing="0" opacity="1">Vector search, from scratch</text>
+  <text x="48" y="202" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="14" font-weight="400" fill="#8B949E" text-anchor="start" letter-spacing="0" opacity="1">HNSW · KD-tree · brute force, wired to a local RAG loop.</text>
+
+  <!-- scatter -->
+  <rect x="48" y="238" width="430" height="390" rx="12" fill="#0F141B" stroke="#2C3542"/>
+  <g opacity="0.7">
+    <line x1="78" y1="288" x2="448" y2="288" stroke="#1A212B"/>
+    <line x1="78" y1="348" x2="448" y2="348" stroke="#1A212B"/>
+    <line x1="78" y1="408" x2="448" y2="408" stroke="#1A212B"/>
+    <line x1="78" y1="468" x2="448" y2="468" stroke="#1A212B"/>
+    <line x1="78" y1="528" x2="448" y2="528" stroke="#1A212B"/>
+    <line x1="78" y1="588" x2="448" y2="588" stroke="#1A212B"/>
+    <line x1="138" y1="258" x2="138" y2="608" stroke="#1A212B"/>
+    <line x1="198" y1="258" x2="198" y2="608" stroke="#1A212B"/>
+    <line x1="258" y1="258" x2="258" y2="608" stroke="#1A212B"/>
+    <line x1="318" y1="258" x2="318" y2="608" stroke="#1A212B"/>
+    <line x1="378" y1="258" x2="378" y2="608" stroke="#1A212B"/>
+  </g>
+  <!-- clusters -->
+  <g opacity="0.95">
+    <circle cx="155" cy="350" r="7" fill="#B7F171"/><circle cx="182" cy="326" r="5" fill="#B7F171"/><circle cx="140" cy="382" r="5" fill="#B7F171"/><circle cx="198" cy="370" r="6" fill="#B7F171"/><circle cx="168" cy="404" r="4" fill="#B7F171"/>
+    <circle cx="318" cy="470" r="7" fill="#FFB86B"/><circle cx="345" cy="442" r="5" fill="#FFB86B"/><circle cx="300" cy="500" r="5" fill="#FFB86B"/><circle cx="358" cy="498" r="6" fill="#FFB86B"/><circle cx="330" cy="520" r="4" fill="#FFB86B"/>
+    <circle cx="250" cy="570" r="6" fill="#7AA2F7"/><circle cx="278" cy="548" r="4" fill="#7AA2F7"/><circle cx="226" cy="590" r="5" fill="#7AA2F7"/><circle cx="300" cy="582" r="5" fill="#7AA2F7"/>
+  </g>
+  <!-- query + radius -->
+  <circle cx="280" cy="420" r="96" fill="none" stroke="#E6EDF3" stroke-width="1.2" stroke-dasharray="4 5" opacity="0.45"/>
+  <circle cx="280" cy="420" r="7" fill="#E6EDF3"/>
+  <circle cx="280" cy="420" r="15" fill="none" stroke="#E6EDF3" opacity="0.5"/>
+  <text x="296" y="412" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="12" font-weight="500" fill="#E6EDF3" text-anchor="start" letter-spacing="0" opacity="1">query</text>
+  <text x="78" y="606" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="11" font-weight="400" fill="#5B6675" text-anchor="start" letter-spacing="0" opacity="1">2D PCA projection</text>
+  <text x="448" y="606" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="11" font-weight="500" fill="#B7F171" text-anchor="end" letter-spacing="0" opacity="1">top-k</text>
+
+  <!-- pipeline -->
+  <text x="520" y="270" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="11" font-weight="600" fill="#5B6675" text-anchor="start" letter-spacing="1.5" opacity="1">THE RETRIEVAL LOOP</text>
+  <g>
+    <rect x="520" y="288" width="632" height="48" rx="9" fill="#0F141B" stroke="#2C3542"/>
+    <text x="540" y="318" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="12" font-weight="500" fill="#5B6675" text-anchor="start" letter-spacing="0" opacity="1">01</text>
+    <text x="580" y="318" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="14" font-weight="600" fill="#E6EDF3" text-anchor="start" letter-spacing="0" opacity="1">text</text>
+    <text x="680" y="318" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="13" font-weight="400" fill="#8B949E" text-anchor="start" letter-spacing="0" opacity="1">→  nomic-embed-text  →  768-d vector</text>
+
+    <rect x="520" y="348" width="632" height="48" rx="9" fill="#0F141B" stroke="#2C3542"/>
+    <text x="540" y="378" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="12" font-weight="500" fill="#5B6675" text-anchor="start" letter-spacing="0" opacity="1">02</text>
+    <text x="580" y="378" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="14" font-weight="600" fill="#E6EDF3" text-anchor="start" letter-spacing="0" opacity="1">index</text>
+    <text x="680" y="378" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="13" font-weight="400" fill="#8B949E" text-anchor="start" letter-spacing="0" opacity="1">HNSW graph  ·  O(log N) search</text>
+
+    <rect x="520" y="408" width="632" height="48" rx="9" fill="#0F141B" stroke="#2C3542"/>
+    <text x="540" y="438" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="12" font-weight="500" fill="#5B6675" text-anchor="start" letter-spacing="0" opacity="1">03</text>
+    <text x="580" y="438" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="14" font-weight="600" fill="#E6EDF3" text-anchor="start" letter-spacing="0" opacity="1">retrieve</text>
+    <text x="680" y="438" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="13" font-weight="400" fill="#8B949E" text-anchor="start" letter-spacing="0" opacity="1">top-k nearest neighbors  ·  cosine / L2 / L1</text>
+
+    <rect x="520" y="468" width="632" height="48" rx="9" fill="#0F141B" stroke="#2C3542"/>
+    <text x="540" y="498" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="12" font-weight="500" fill="#5B6675" text-anchor="start" letter-spacing="0" opacity="1">04</text>
+    <text x="580" y="498" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="14" font-weight="600" fill="#E6EDF3" text-anchor="start" letter-spacing="0" opacity="1">answer</text>
+    <text x="680" y="498" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="13" font-weight="400" fill="#8B949E" text-anchor="start" letter-spacing="0" opacity="1">llama3.2 reads the retrieved context</text>
+  </g>
+
+  <!-- algorithm comparison -->
+  <text x="520" y="566" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="11" font-weight="600" fill="#5B6675" text-anchor="start" letter-spacing="1.5" opacity="1">THREE INDEXES, ONE INTERFACE</text>
+  <rect x="520" y="584" width="196" height="44" rx="9" fill="#B7F171" opacity="0.10" stroke="#B7F171" stroke-opacity="0.35"/>
+  <text x="540" y="611" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="13" font-weight="700" fill="#B7F171" text-anchor="start" letter-spacing="0" opacity="1">HNSW</text>
+  <text x="700" y="611" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="12" font-weight="500" fill="#B7F171" text-anchor="end" letter-spacing="0" opacity="1">O(log N)</text>
+  <rect x="728" y="584" width="196" height="44" rx="9" fill="#0F141B" stroke="#2C3542"/>
+  <text x="748" y="611" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="13" font-weight="700" fill="#E6EDF3" text-anchor="start" letter-spacing="0" opacity="1">KD-tree</text>
+  <text x="908" y="611" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="12" font-weight="500" fill="#8B949E" text-anchor="end" letter-spacing="0" opacity="1">exact</text>
+  <rect x="936" y="584" width="216" height="44" rx="9" fill="#0F141B" stroke="#2C3542"/>
+  <text x="956" y="611" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="13" font-weight="700" fill="#E6EDF3" text-anchor="start" letter-spacing="0" opacity="1">brute force</text>
+  <text x="1136" y="611" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="12" font-weight="500" fill="#8B949E" text-anchor="end" letter-spacing="0" opacity="1">O(N)</text>
+</svg>

@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
-  <img alt="Pravin Mandal — I build software, from interface to infrastructure." src="assets/hero-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark-2.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light-2.svg">
+  <img alt="Pravin Mandal — I build software, from interface to infrastructure." src="assets/hero-light-2.svg" width="100%">
 </picture>
 
 ### The short version
